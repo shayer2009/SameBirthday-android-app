@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Same Birthday</string>
+    <string name="title_activity_login">Login</string>
+    <string name="banner_ad_unit_id">ca-app-pub-9935576572542181/6871031358</string>
+    <string name="title_activity_search">SearchActivity</string>
+    
+    <string name="no_result_of_search_activity">No Result Found</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="title_activity_chat_board">ChatBoardActivity</string>
+    <string name="title_activity_spash_screen">SpashScreenActivity</string>
+    <string name="title_activity_my_message_history">MyMessageHistoryActivity</string>
+</resources>

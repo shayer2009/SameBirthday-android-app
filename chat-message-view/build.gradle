@@ -1,0 +1,52 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'com.jfrog.bintray'
+
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'chat-message-view'
+
+    publishedGroupId = 'me.himanshusoni.chatmessageview'
+    libraryName = 'chat-message-view'
+    artifact = 'chat-message-view'
+
+    libraryDescription = 'Android library to create chat message view easily'
+
+    siteUrl = 'https://github.com/himanshu-soni/ChatMessageView'
+    gitUrl = 'https://github.com/himanshu-soni/ChatMessageView.git'
+
+    libraryVersion = '1.0.3'
+
+    developerId = 'himanshu-soni'
+    developerName = 'Himanshu Soni'
+    developerEmail = 'himanshusoni.me@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+//    resourcePrefix "cmv_"
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 4
+        versionName "1.0.3"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}

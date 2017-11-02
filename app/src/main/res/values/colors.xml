@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF9C00</color>
+    <color name="colorPrimaryDark">#FF6600</color>
+    <color name="colorAccent">#FC4C08</color>
+    <color name="focused_edittext_border_color">#FF6600</color>
+    <color name="normal_edittext_border_color">#C8C8C8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="green">#17C762</color>
+    <color name="blue">#1495CE</color>
+</resources>
